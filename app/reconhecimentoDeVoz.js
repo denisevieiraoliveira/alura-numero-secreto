@@ -1,7 +1,6 @@
 const elementoChute = document.querySelector('#chute');
 
-window.SpeechRecognition =
-    window.SpeechRecognition || window.webkitSpeechRecognition;
+window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
 recognition.lang = 'pt-Br';

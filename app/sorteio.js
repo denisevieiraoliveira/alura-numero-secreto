@@ -6,12 +6,10 @@ function gerarNumeroAleatorio(){
     return parseInt(Math.random() * maiorValor + 1);
 }
 
-const elementoMenorValor = document.querySelector('menor-valor');
+console.log('Número secreto: ', numeroSecreto);
+
+const elementoMenorValor = document.getElementById('menor-valor');
 elementoMenorValor.innerHTML = menorValor;
 
-const elementoMaiorValor = document.querySelector('maior-valor');
+const elementoMaiorValor = document.getElementById('maior-valor');
 elementoMaiorValor.innerHTML = maiorValor;
-
-
-
-
