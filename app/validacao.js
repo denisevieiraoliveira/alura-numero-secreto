@@ -1,6 +1,3 @@
-const elementoMenorValor = document.querySelector('#menor-valor');
-const elementoMaiorValor = document.querySelector('#maior-valor');
-
 function verificaSeOChutePossuiUmValorValido(chute) {
     const numero = +chute; 
 
