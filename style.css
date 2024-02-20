@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: "Jost", sans-serif;
+    --bg-color: #F3FDE8;
+    --primary-color: #001524;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+.titulo {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.subtitulo {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    margin-top: 20px;
+    border: 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--bg-color);
+}
